@@ -1,0 +1,49 @@
+@import 'libs';
+@import 'vars';
+@import 'fonts';
+html{
+  height: 100%;
+  font-size: 14px;
+}
+body{
+  font-family: 'Baloo';
+  height: 100%;
+  margin: 0;
+}
+#root{
+ padding: 10px 0;
+ height: 100vh;
+ min-height: 743px;
+ text-align: center;
+ background-color: #000;
+ canvas{
+  margin: 0 auto;
+  border: 4px solid white;
+}
+}
+h1{
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 60px;
+  span{
+    margin-right: 3px;
+    &:nth-child(1){
+      color: #FF00AE;
+    }
+    &:nth-child(2){
+      color: #D0FF00;
+    }
+    &:nth-child(3){
+      color: #3AE2CE;
+    }
+    &:nth-child(4){
+      color: #00FFA9;
+    }
+    &:nth-child(5){
+      color: #FD0;
+    }
+    &:nth-child(6){
+      color: #B34EE9;
+    }
+  }
+}
